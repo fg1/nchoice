@@ -1,24 +1,18 @@
-=======
-nchoice
-=======
+# nchoice
 
 ``nchoice`` is a small python program and library using ncurses to ask the user for a question. This script is useful for building other scripts.
 
 ![Recording of nchoice](https://raw.githubusercontent.com/fg1/nchoice/master/data/nchoice-recording.gif)
 
-Installation
-============
+## Installation
 
 From Github:
 
-.. code-block:: shell
-
     $ pip install --upgrade https://github.com/fg1/nchoice/archive/master.tar.gz
 
-Usage
-=====
+## Usage
 
-.. code-block:: shell
+From the command line:
 
    usage: nchoice [-h] [-Q QUESTION] [-A] C [C ...]
 

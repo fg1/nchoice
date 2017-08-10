@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 from codecs import open
 
-with open('README.rst', 'r', 'utf-8') as fd:
+with open('README.md', 'r', 'utf-8') as fd:
     long_description = fd.read()
 
 setup(
