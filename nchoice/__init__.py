@@ -85,7 +85,7 @@ def ask_choice(choices, question):
     return position
 
 
-if __name__ == "__main__":
+def main():
     import sys
     import argparse
 
@@ -103,3 +103,7 @@ if __name__ == "__main__":
         print(args.choices[position])
     else:
         print(position)
+
+
+if __name__ == "__main__":
+    main()
