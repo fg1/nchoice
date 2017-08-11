@@ -4,7 +4,7 @@
 import curses
 
 
-def ask_choice(choices, question):
+def ask_choice(choices, question=None):
     scr = curses.initscr()
     y, x = scr.getmaxyx()
     curses.noecho()
