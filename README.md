@@ -7,26 +7,27 @@
 ## Installation
 
 From Github:
-
-    $ pip install --upgrade https://github.com/fg1/nchoice/archive/master.tar.gz
+```
+$ pip install --upgrade https://github.com/fg1/nchoice/archive/master.tar.gz
+```
 
 ## Usage
 
 From the command line:
+```
+usage: nchoice [-h] [-Q QUESTION] [-A] C [C ...]
 
-    usage: nchoice [-h] [-Q QUESTION] [-A] C [C ...]
+positional arguments:
+    C            List of choices to ask for
 
-    positional arguments:
-      C            List of choices to ask for
-
-      optional arguments:
-        -h, --help   show this help message and exit
-        -Q QUESTION  Add a question on top of the list of choices
-        -A           Returns the choice itself instead of its index
-
+    optional arguments:
+    -h, --help   show this help message and exit
+    -Q QUESTION  Add a question on top of the list of choices
+    -A           Returns the choice itself instead of its index
+```
 
 In a script:
-
-    from nchoice import ask_choice
-    ask_choice(['Option 1', 'Option 2', 'Option 3'], 'Please make a choice:')
-
+```python
+from nchoice import ask_choice
+ask_choice(['Option 1', 'Option 2', 'Option 3'], 'Please make a choice:')
+```
